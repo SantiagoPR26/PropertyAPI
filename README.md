@@ -21,6 +21,12 @@ Librerias
 
 La aplicación se ejecutará en http://localhost:8080.
 
+    Hasta el momento cuenta con 2 endpoint
+    http://localhost:8080/api/property/one/{id} : metodo get que permite obtener una propiedidad mediante la id 
+    http://localhost:8080/api/property/all : metodo get que permite obtener todas las propiedad 
+
+    Se recomienda usar sofware Postman para probar cada endpoint
+
 
 La base de datos H2 está incrustada en la aplicación y se inicializa utilizando un script SQL al arrancar la aplicación. Puedes acceder a la consola de administración de H2 mediante la siguiente URL:
 
